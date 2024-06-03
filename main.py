@@ -130,6 +130,8 @@ def md_nre_single_sample(y,y_hat,n,p):
 # md_nre_single_sample(20,19.5,2,1)
 # md_nre_single_sample(0.6,0.1,2,1)
 
+#END
+
 
 
 
