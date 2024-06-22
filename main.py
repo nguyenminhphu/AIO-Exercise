@@ -36,7 +36,7 @@ def sigmoid_function(x):
 def ReLU_function(x):
     return x*(x>0)
 
-def ElU_function(a,x):
+def elU_function(a,x):
     return x*(x>0) + a*(math.exp(x)-1)*(x<=0)
 
 def excerise2(type_function, x):
@@ -48,7 +48,7 @@ def excerise2(type_function, x):
     elif type_function == 'ReLU':
         return ReLU_function(x)
     elif type_function == 'ElU':
-        return ElU_function(1,x)
+        return elU_function(1,x)
     else:
         print(f"{type_function} is not supported")
         return

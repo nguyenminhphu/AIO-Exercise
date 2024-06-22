@@ -213,7 +213,7 @@ def my_function7(x, y):
 # print(max([1,9,9,0]))
 
 #10
-def My_function(integers, number=1):
+def my_function(integers, number=1):
     return any(i == number for i in integers)
 
 # Example (uncomment to run)
